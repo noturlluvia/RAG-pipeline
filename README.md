@@ -72,21 +72,21 @@ The performance of the pipeline is evaluated using three types of reference-base
 
 Clone the repository and install the required Python packages:
 
-\`\`\`bash
+```
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Usage
 
 Run the main script to start the pipeline:
 
-\`\`\`bash
+```
 python rag_pipeline.py
-\`\`\`
+```
 
 ### 3. Folder Structure
 
-\`\`\`plaintext
+```
 RAG_Pipeline/
 ├── data/                                 # Data files
 │   ├── README.md                         # Documentation and instructions to download data
@@ -99,7 +99,7 @@ RAG_Pipeline/
 │   ├── rag_pipeline.py                   # Main pipeline driver script
 ├── requirements.txt                      # Required Python packages
 ├── README.md                             # Documentation of the RAG pipeline and evaluation
-\`\`\`
+```
 
 ## Work-in-Progress and Research Directions
 
@@ -108,4 +108,4 @@ RAG_Pipeline/
 - **State-of-the-Art Models**: Integrate the latest models for both retrievers and generators.
 - **RAT**: Combine RAG and CoT to eliminate hallucinations and improve answer quality.
 - **Knowledge Graph (KG) guided RAG**: Focus on building complete and accurate knowledge graphs instead of relying solely on retrieval.
-"""
+
