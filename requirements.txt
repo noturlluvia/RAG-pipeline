@@ -1,0 +1,12 @@
+pandas
+transformers
+farm-haystack
+farm-haystack[inference]
+farm-haystack[faiss]
+torch
+spacy
+seaborn
+matplotlib
+
+
+
